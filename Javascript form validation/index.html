@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Link to offline poppins font -->
+    <link rel="stylesheet" href="css/fonts.css">
+    <!-- Link to main css style -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link to offline bootstrap icon -->
+    <link rel="stylesheet" href="bootstrap-icons/bootstrap-icons.css">
+</head>
+
+<body>
+    <!-- The link for the src file (the img inclusive) of this project is in the description of this video and if you wish to use the online version of this links, I have also included the links for the offline version-->
+
+    <div class="wrapper">
+        <input type="checkbox" name="checkbox" id="flipper">
+        <div class="intro-to-company">
+            <div class="company-message">
+                <h3>Welcome to <span>CODEBRO</span></h3>
+                <h5>Learn Programming on Youtube</h5>
+                <h5>Hurry up now!!</h5>
+                <p><span>Subscribe</span> and get started</p>
+            </div>
+        </div>
+        <div class="form-section-container signup">
+            <form action="#" id="s-form">
+                <div class="form-header">
+                    Signup
+                </div>
+                <div class="form-field user-names">
+                    <div class="name-container">
+                        <input type="text" name="text" id="s-firstname" placeholder="Firstname" 
+                            autocomplete="off">
+                        <i class="bi bi-person-fill"></i>
+                        <div class="outcome">
+                            <i class="bi bi-check-circle-fill outcome"></i>
+                        <i class="bi bi-exclamation-circle-fill outcome"></i>
+                        </div>
+                        <small></small>
+                    </div>
+                    <div class="name-container">
+                        <input type="text" name="text" id="s-lastname" placeholder="Lastname" 
+                            autocomplete="off">
+                            <div class="outcome">
+                                <i class="bi bi-check-circle-fill outcome"></i>
+                            <i class="bi bi-exclamation-circle-fill outcome"></i>
+                            </div>
+                            <small></small>
+                    </div>
+
+                </div>
+                <div class="form-field">
+                    <input type="text" name="email" id="s-email" placeholder="Enter E-mail here" 
+                        autocomplete="off">
+                    <i class="bi bi-envelope-fill"></i>
+                    <div class="outcome">
+                        <i class="bi bi-check-circle-fill outcome"></i>
+                    <i class="bi bi-exclamation-circle-fill outcome"></i>
+                    </div>
+                    <small></small>
+                </div>
+                <div class="form-field">
+                    <input type="password" name="password" id="s-password" placeholder="Enter your secret pin" >
+                    <i class="bi bi-lock-fill"></i>
+                    <div class="outcome">
+                        <i class="bi bi-check-circle-fill outcome"></i>
+                    <i class="bi bi-exclamation-circle-fill outcome"></i>
+                    </div>
+                    <small></small>
+                </div>
+                <div class="form-field">
+                    <input type="password" name="password" id="s-cpassword" placeholder="Comfirm secret pin" >
+                    <i class="bi bi-lock-fill"></i>
+                    <div class="outcome">
+                        <i class="bi bi-check-circle-fill outcome"></i>
+                    <i class="bi bi-exclamation-circle-fill outcome"></i>
+                    </div>
+                    <small></small>
+                </div>
+                <div class="submit" id="proceed">
+                    <input type="submit" value="Register">
+                    <i class="bi bi-arrow-right-circle"></i>
+                </div>
+                <div class="dont-have-an-account">
+                    Already have an account? <label for="flipper">Login</label>
+                </div>
+            </form>
+        </div>
+        <div class="form-section-container login">
+            <form action="#" id="form">
+                <div class="form-header">
+                    Login
+                </div>
+                <div class="form-field">
+                    <input type="email" name="email" id="email" placeholder="Enter E-mail here" 
+                        autocomplete="off">
+                    <i class="bi bi-envelope-fill"></i>
+                </div>
+                <div class="form-field password-field">
+                    <input type="password" name="password" id="password" placeholder="Enter your secret pin" >
+                    <i class="bi bi-lock-fill" id="lock-icon"></i>
+                    <div class="outcome">
+                        <i class="bi bi-check-circle-fill outcome"></i>
+                    <i class="bi bi-exclamation-circle-fill outcome"></i>
+                    </div>
+                    <small></small>
+                    <div><a href="#" id="forgot-password">Forgot Password?</a></div>
+                </div>
+                <div class="submit" id="proceed">
+                    <input type="submit" value="Proceed">
+                    <i class="bi bi-arrow-right-circle"></i>
+                </div>
+                <div class="dont-have-an-account">
+                    Don't have an account? <label for="flipper">Signup now</label>
+                </div>
+            </form>
+        </div>
+    </div>
+
+<!-- Now lets add the side cover -->
+<script src="app.js"></script>
+</body>
+
+</html>
